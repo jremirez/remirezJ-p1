@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 1rem/1.5rem 'Poppins', Arial, sans-serif;
+  color: #191919;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+.container {
+  width: 87%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+/*Header Styles*/
+
+.logo {
+  margin: auto;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+  width: 60%;
+  margin: auto;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+header nav li a {
+  color: #191919;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*Mobile Nav*/
+
+
+
+
+/*Hero Styles*/
+
+#homepagehero {
+  background: url("../images/heroimg.jpg") no-repeat;
+  background-size: cover;
+  height: 413px;
+}
+
+#homepagehero h1 {
+  color: #191919;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-top: 20rem;
+}
+
+#homepagehero h1 span {
+  background-color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+/*Contact Info Styles*/
+
+
+#contactnav ul li a {
+  color: #191919;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: .75rem;
+  margin: auto;
+}
+
+#contactnav ul li {
+  list-style-type: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.space-around { 
+  justify-content: space-around; 
+}
+
+/*Intro Styles*/
+
+.intro {
+  text-align: justify;
+  margin: auto;
+  margin-top: 3rem;
+  color: #191919;
+  flex-wrap: wrap;
+}
+
+.intro p {
+  font: 1rem/1.75rem 'Poppins', Arial, sans-serif;
+  margin: auto;
+  max-width: 60%;
+  text-align: center;
+}
+
+/*Products Styles*/
+
+#productgrid {
+  width: 87%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+h2 {
+  font: 1.25rem 'Orbitron', sans-serif;
+  margin: auto;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.products img {
+  box-shadow: 5px 0px 12px 0px #E1E1E1;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  max-width: 80%;
+  margin-left: 3rem;
+}
+
+.card p {
+  text-align: left;
+}
+
+.card p span {
+  color: #35B233;
+}
+
+.cardcontent {
+  box-shadow: 5px 0px 12px 0px #E1E1E1;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  max-width: 80%;
+  margin-left: 3rem;
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  background: #35B233;
+  padding: 10rem;
+  margin-top: 5rem;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 100px;
+  margin: auto;
+}
+
+/*footer Styles*/
+
+footer {
+  background: #35B233;
+  color: white;
+  margin-top: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about-left {
+  width: 50%;
+}
+
+.about-left h4 {
+  margin-bottom: 1rem;
+  font: 1rem/1.5rem 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-left p {
+  opacity: 50%;
+  text-decoration: underline;
+}
+
+/*About Styles*/
+
+/*hero Styles*/
+
+#homepagehero_about {
+  background: url("../images/about_hero.jpg") no-repeat;
+  background-size: cover;
+  height: 413px;
+}
+
+#homepagehero_about h1 {
+  color: #191919;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-top: 20rem;
+}
+
+#homepagehero_about h1 span {
+  background-color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*body Styles*/
+
+.left{
+  width: 49%;
+  margin-top: 3rem;
+}
+
+.right{
+  width: 49%;
+  margin-top: 3rem;
+}
+
+.left ul {
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.left li {
+  display: block;
+  background-image: url(../images/greenarrow.svg);
+  background-repeat: no-repeat; 
+  background-position: left top;
+  height: 2rem;
+  padding-left: 2rem;
+}
